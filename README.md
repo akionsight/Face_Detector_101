@@ -1,4 +1,4 @@
-# Face-Detector-101
+# Face_Detector_101
 A face detector API that will help you detect faces from webcam feed 
 
 ### Its real easy
