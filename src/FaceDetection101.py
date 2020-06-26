@@ -1,7 +1,8 @@
 import cv2
 import os
-def detect_faces_from_webcam(webcam_index=0, window_title='Faces In Video', cascade='haarcascade_frontalface_default.xml',box_colour=(0, 255, 0), line_thickness=2):
-    face_cascade = cv2.CascadeClassifier(cascade)
+
+def detect_faces_from_webcam(webcam_index=0, window_title='Faces In Video', cascade='haarcascade_frontalface_default.xml',box_colour=(0, 255, 0), line_thickness=2, wait_key=30):
+    face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + cascade)
 
     cap = cv2.VideoCapture(webcam_index)
     while True:
@@ -12,7 +13,9 @@ def detect_faces_from_webcam(webcam_index=0, window_title='Faces In Video', casc
             cv2.rectangle(img, (x,y), (x+w, y+h), box_colour, line_thickness)
 
         cv2.imshow(window_title, img)
-        k = cv2.waitKey(30)
+        k = cv2.waitKey(1)
         if k == 27:
             break
+
+
 
