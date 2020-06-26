@@ -10,7 +10,7 @@ I guarentee you that this will be your most pleasent face detector
 ## Cloning the repository
 
 clone the repository will the following command
-```git clone https://github.com/akionsight/Face-Detector-101.git```
+```git clone https://github.com/akionsight/Face_Detector_101.git```
 
 ![cloneing](https://github.com/akionsight/Face-Detector-101/blob/master/github/cloneing.gif)
 
