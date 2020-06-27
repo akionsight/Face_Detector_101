@@ -23,7 +23,7 @@ from Face-Detector-101/src import FaceDetection101.py
 ## How to use 
 after writing 
 ```python 
-from Face-Detector-101/src import FaceDetection101
+from Face_Detector_101/src import FaceDetection101
 ```
 
 then you can write 
