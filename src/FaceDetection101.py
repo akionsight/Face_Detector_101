@@ -1,7 +1,7 @@
 import cv2
 import os
 
-def detect_faces_from_webcam(webcam_index=0, window_title='Faces In Video', cascade='haarcascade_frontalface_default.xml',box_colour=(0, 255, 0), line_thickness=2, wait_key=30):
+def detect_faces_from_webcam(webcam_index=0, window_title='Faces In Video', cascade='haarcascade_frontalface_default.xml',box_colour=(0, 255, 0), line_thickness=2):
     face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + cascade)
 
     cap = cv2.VideoCapture(webcam_index)
