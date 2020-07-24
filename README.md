@@ -59,7 +59,7 @@ so green in BGR in `(255, 0, 0)`
 the line_thickness changes the thickenss of the lines of rectangle around the face. the default value is 2
 
 #### cascade
-the cascade or haarcascade can be changed. to view the list of all harcascades for ears, nose etc click <a href="https://github.com/opencv/opencv/tree/master/data/haarcascades" target="_blank"></a> and download the required cascade, you can also create you own cascade and use it here
+the cascade or haarcascade can be changed. to view the list of all harcascades for ears, nose etc click <a href="https://github.com/opencv/opencv/tree/master/data/haarcascades" target="_blank">here</a> and download the required cascade, you can also create you own cascade and use it here
 
 
 
