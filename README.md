@@ -1,7 +1,7 @@
 # Face_Detector_101
 A face detector API that will help you detect faces from webcam feed or image
 
-![image](.github/me.png) <-----> ![detected](.github/me-detected.png) 
+![image](github/me.png) <-----> ![detected](github/me-detected.png) 
 
 ### Its real easy
 I guarentee you that this will be your most pleasent face detector
