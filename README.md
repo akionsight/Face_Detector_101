@@ -1,5 +1,7 @@
 # Face_Detector_101
-A face detector API that will help you detect faces from webcam feed 
+A face detector API that will help you detect faces from webcam feed or image
+
+![image](.github/me.png) <-----> ![detected](.github/me-detected.png) 
 
 ### Its real easy
 I guarentee you that this will be your most pleasent face detector
@@ -7,47 +9,35 @@ I guarentee you that this will be your most pleasent face detector
 
 # Usage
 
-## Cloning the repository
+1. go into the src folder and then into the `detection_from_images` folder or `detection_from_webcam` folder. then copy the file in the folder and paste it into the required directory
 
-clone the repository will the following command
-```git clone https://github.com/akionsight/Face_Detector_101.git```
+2. import the `FaceDetection101.py` file in a python file you want to work in
 
-![cloneing](https://github.com/akionsight/Face-Detector-101/blob/master/github/cloneing.gif)
+3. Now, import the only function in the file that might be any one of the one below according to the file that is in your directory
 
-## after that import the file as
-
-```python 
-from Face-Detector-101/src import FaceDetection101.py
+```python
+faceDetection101.detect_faces_from_webcam(webcam_index=0, window_title='Faces In Video', box_colour=(0, 255, 0), line_thickness=2)
 ```
 
-## How to use 
-after writing 
-```python 
-from Face_Detector_101/src import FaceDetection101
+or 
+```python
+face_Detection101.detect_faces_from_image(image, box_colour=(0, 255, 0), line_thickness=2, window_title='faces in image', save=False, saving_filename=None)
 ```
 
-then you can write 
-
-```python 
-FaceDetection101.detect_faces_from_webcam()
-```
-and you get you being recognized
 
 ### Customization
 
 there are a lot of ways you can customisze this code line changing the parameters of the function 
 
-> webcam_index (detect faces from multiple webcams)
+> webcam_index (detect faces from different webcams)
 
 > box_colour (change the colour of the rectangle around the face)
 
 > line_thickness (change the thickenss of the lines of rectangle around the face)
 
-> cascade (now you can recognize thing such as eyes, nose, ears, whole body, lower body, upper body etc)
+> window_title (change the title of the window shown)
 
-#### webcam_index
-
-the webcam index is a integer value. the default is 0 but if another webcam is installed the index will be 1 etc. 
+> save and saving filename (detection_from_image only) (save the file by setting the parameter `save=True` and provide the saving filename) 
 
 #### box_colour 
 
@@ -55,12 +45,5 @@ the box_colour changes the colour of the rectangle around the face. the values i
 so if green is `(0, 255, 0` in RGB
 so green in BGR in `(255, 0, 0)`
 
-#### line thickness
-the line_thickness changes the thickenss of the lines of rectangle around the face. the default value is 2
 
-#### cascade
-the cascade or haarcascade can be changed. to view the list of all harcascades for ears, nose etc click <a href="https://github.com/opencv/opencv/tree/master/data/haarcascades" target="_blank">here</a> and download the required cascade, you can also create you own cascade and use it here
-
-
-
-thanks for reading. please tell if you made something with it I would be very happy 😊
+thanks for reading. please communicate if you made something with it, I would be very happy 😊
