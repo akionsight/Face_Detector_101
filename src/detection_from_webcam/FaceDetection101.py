@@ -1,3 +1,9 @@
+'''
+Made By : Harsh Pandey (AkIonSight)
+Contact : akionsight@gmail.com
+Github Profile : https://github.com/akionsight
+License : MIT
+'''
 import cv2
 import os
 
