@@ -1,3 +1,10 @@
+'''
+Made By : Harsh Pandey (AkIonSight)
+Contact : akionsight@gmail.com
+Github Profile : https://github.com/akionsight
+License : MIT
+'''
+
 import cv2
 
 def detect_faces_from_image(image, box_colour=(0, 255, 0), line_thickness=2, window_title='faces in image', save=False, saving_filename=None):
