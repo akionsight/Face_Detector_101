@@ -29,15 +29,15 @@ face_Detection101.detect_faces_from_image(image, box_colour=(0, 255, 0), line_th
 
 there are a lot of ways you can customisze this code line changing the parameters of the function 
 
-> webcam_index (detect faces from different webcams)
+- webcam_index (detect faces from different webcams)
 
-> box_colour (change the colour of the rectangle around the face)
+- box_colour (change the colour of the rectangle around the face)
 
-> line_thickness (change the thickenss of the lines of rectangle around the face)
+- line_thickness (change the thickenss of the lines of rectangle around the face)
 
-> window_title (change the title of the window shown)
+- window_title (change the title of the window shown)
 
-> save and saving filename (detection_from_image only) (save the file by setting the parameter `save=True` and provide the saving filename) 
+- save and saving filename (detection_from_image only) (save the file by setting the parameter `save=True` and provide the saving filename) 
 
 #### box_colour 
 
