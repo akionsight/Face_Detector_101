@@ -1,6 +1,8 @@
 # Face_Detector_101
 A face detector API that will help you detect faces from webcam feed or image
 
+![image](https://img.shields.io/tokei/lines/github/akionsight/Face_Detector_101?style=for-the-badge)
+
 ![image](github/me.png) <-----> ![detected](github/me-detected.png) 
 
 ### Its real easy
